@@ -6,9 +6,9 @@ from fastapi.staticfiles import StaticFiles
 import pandas as pd
 
 # InfluxDB Client Configuration
-INFLUXDB_HOST = "http://192.168.0.63:8181"
-TOKEN = "apiv3_j864z0VmbPEdJIKyeLRLdJI5uagYAHZFgZC2BKuy_WsKxLo8PZ9R-GLWskSCVBp7jTzb16z1uLMijdHnc9MdTQ"
-DATABASE = "support_ear_data"
+INFLUXDB_HOST = "http://192.168.xxx.xx:8181"
+TOKEN = "123456789abcdefghijklmnopqr"
+DATABASE = "my_database"
 
 # Initialize FastAPI app
 app = FastAPI()
